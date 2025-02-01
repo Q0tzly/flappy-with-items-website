@@ -1,4 +1,4 @@
-INSTALL_DIR := ~/flappy-with-items-web/
+INSTALL_DIR := ~/public_html/
 SRC_DIR := src
 
 install:
