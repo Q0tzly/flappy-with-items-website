@@ -5,9 +5,9 @@ set -e
 version="2.0.2"
 
 dist_url_kosen="http://jusco.infogr.kushiro-ct.ac.jp/~p220032/distributions/flappy-with-items-${version}.tgz"
-dist_url_local="/Users/yuto/temp/flappy-with-items-website/src/distributions/flappy-with-items-${version}.tgz"
+dist_url_local=""
 
-dist_url=$dist_url_local
+dist_url=$dist_url_kosen
 
 target="flappy-with-items-${version}.tgz"
 target_dir="flappy-with-items-${version}"
@@ -19,4 +19,4 @@ tar -xzf $target
 cd $target_dir
 echo "Installing finished."
 
-make run
+make run </dev/tty
