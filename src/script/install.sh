@@ -19,6 +19,5 @@ tar -xzf "$target"
 cd $target_dir
 
 echo "Installing finished."
-echo "\nYou can now run these commands to start game."
-echo "\ncd $target_dir"
-echo "make run"
+
+make run
