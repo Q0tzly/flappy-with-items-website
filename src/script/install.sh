@@ -7,7 +7,7 @@ version="2.0.2"
 dist_url_kosen="http://jusco.infogr.kushiro-ct.ac.jp/~p220032/distributions/flappy-with-items-${version}.tgz"
 dist_url_local=""
 
-dist_url=$dist_url_kosen
+dist_url=$dist_url_local
 
 target="flappy-with-items-${version}.tgz"
 target_dir="flappy-with-items-${version}"
