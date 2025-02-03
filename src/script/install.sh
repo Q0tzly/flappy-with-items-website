@@ -2,7 +2,7 @@
 
 set -e
 
-version="2.0.0"
+version="2.0.2"
 
 dist_url_kosen="http://jusco.infogr.kushiro-ct.ac.jp/~p220032/distributions/flappy-with-items-${version}.tgz"
 
